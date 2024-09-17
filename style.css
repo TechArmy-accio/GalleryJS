@@ -1,0 +1,26 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+}
+
+img{
+    width: 200px;
+    height: 300px
+}
+
+input,button{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.details{
+    display: none;
+}
+
+
+.selected{
+    border: 2px solid red;
+}
